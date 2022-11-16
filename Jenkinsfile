@@ -34,7 +34,7 @@ pipeline{
     }
     post{
         always{
-            archiveArtifacts artifacts: 'aline-gateway/target/*.jar', onlyIfSuccessful: true
+            archiveArtifacts artifacts: '/target/*.jar', onlyIfSuccessful: true
         }
     }
 }
