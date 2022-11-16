@@ -1,0 +1,6 @@
+com/aline/gateway/config/GatewayConfigurationProperties.class
+com/aline/gateway/GatewayApplication.class
+META-INF/spring-configuration-metadata.json
+com/aline/gateway/config/GatewayConfiguration.class
+com/aline/gateway/config/GatewayConfigurationProperties$Route.class
+com/aline/gateway/controller/GatewayController.class

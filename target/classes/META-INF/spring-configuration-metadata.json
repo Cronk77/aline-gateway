@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "app.gateway",
+      "type": "com.aline.gateway.config.GatewayConfigurationProperties",
+      "sourceType": "com.aline.gateway.config.GatewayConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.gateway.path-prefix",
+      "type": "java.lang.String",
+      "description": "The path prefix to be used with the rewrite path filter.",
+      "sourceType": "com.aline.gateway.config.GatewayConfigurationProperties"
+    },
+    {
+      "name": "app.gateway.portal-origins",
+      "type": "java.util.List<java.lang.String>",
+      "description": "The front-end portal origins to allows cors for.",
+      "sourceType": "com.aline.gateway.config.GatewayConfigurationProperties"
+    },
+    {
+      "name": "app.gateway.routes",
+      "type": "java.util.List<com.aline.gateway.config.GatewayConfigurationProperties$Route>",
+      "description": "Routes for the gateway to map to.",
+      "sourceType": "com.aline.gateway.config.GatewayConfigurationProperties"
+    },
+    {
+      "name": "app.gateway.service-host",
+      "type": "java.lang.String",
+      "description": "The host of the microservices.",
+      "sourceType": "com.aline.gateway.config.GatewayConfigurationProperties"
+    }
+  ],
+  "hints": []
+}
